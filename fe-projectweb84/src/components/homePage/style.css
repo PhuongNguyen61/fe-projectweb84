@@ -1,0 +1,192 @@
+.homePage .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.homePage .section1 {
+    position: relative;
+    height: 759.6px;
+}
+
+.homePage .section1 img {
+    width: 100%;
+}
+
+.homePage .section1 .overlay {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homePage .section1 .overlay .content {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.homePage .section1 .overlay .content .redirectToCategory {
+    width: 490px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    padding: 0 20px;
+    border: 1px solid #FFFFFF;
+    border-radius: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+.homePage .section1 .overlay .content .redirectToCategory h3 {
+    z-index: 1;
+    color: #FFFFFF;
+}
+
+.homePage .section1 .overlay .content .redirectToCategory svg {
+    position: absolute;
+    right: 12px;
+}
+
+.homePage .section1 .overlay .content .redirectToCategory:hover {
+    width: 530px;
+    background-color: #3563E980;
+    transition: all 0.5s ease;
+}
+
+.homePage .section1 .overlay .content .redirectToCategory:hover svg {
+    position: absolute;
+    right: 12px;
+    fill: #FFFFFF;
+}
+
+.homePage .section2 {
+    margin-top: 75px;
+    text-align: center;
+}
+
+.homePage .section2 p {
+    margin-top: 10px;
+}
+
+.homePage .section2 .classify {
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.homePage .section2 .classify .gr {
+    height: 100%;
+    position: relative;
+    overflow: hidden;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.homePage .section2 .classify .gr .overlay {
+    height: 100%;
+}
+
+.homePage .section2 .classify .gr h5 {
+    position: absolute;
+    bottom: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FFFFFF;
+}
+
+.homePage .section2 .classify .gr:hover h5 {
+    bottom: 40%;
+    transition: all 0.5s ease;
+}
+
+.homePage .section2 .classify .gr:hover img {
+    transform: scale(1.2);
+    transition: all 0.5s ease;
+}
+
+.homePage .section2 .classify .left {
+    height: 430px;
+    display: flex;
+    flex-direction: column;
+}
+
+.homePage .section2 .classify .left .gr {
+    height: 200px;
+}
+
+.homePage .section2 .classify .left .grPopularCar {
+    margin-bottom: 30px;
+}
+
+.homePage .section2 .classify .right {
+    height: 430px;
+    margin-left: 30px;
+}
+
+.homePage .section3 {
+    margin-top: 75px;
+    text-align: center;
+    padding: 75px 0;
+    background-color: #F3F3F3;
+}
+
+.homePage .section3 p {
+    margin-top: 10px;
+}
+
+.homePage .section3 .grProcess {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.homePage .section3 .grProcess .left {
+    width: 550px;
+}
+
+.homePage .section3 .grProcess .left img {
+    width: 100%;
+}
+
+.homePage .section3 .grProcess .right {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    text-align: start;
+    width: 500px;
+    margin-left: 50px;
+}
+
+.homePage .section4 {
+    margin: 75px 0;
+    text-align: center;
+}
+
+.homePage .section4 .grReason {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 50px;
+}
+
+.homePage .section4 .grReason .reason {
+    width: 300px;
+}
+
+.homePage .section4 .grReason .reason h3 {
+    margin-top: 10px;
+}
+.homePage .section4 .grReason .reason p {
+    margin-top: 10px;
+}

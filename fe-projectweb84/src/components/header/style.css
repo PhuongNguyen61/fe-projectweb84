@@ -1,0 +1,56 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 100px;
+    border-bottom: 1px solid #EEEEEE;
+}
+
+.header .gr1 {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+}
+
+.header .gr2 {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.header .gr2 .logoWhite {
+    display: none;
+}
+
+.header .gr2 img {
+    width: 100px;
+    cursor: pointer;
+}
+
+.header .gr2 img:hover {
+    opacity: 0.75;
+    transition: all 0.5s ease;
+}
+
+.header .gr3 {
+    width: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.header .gr3 h5 {
+    cursor: pointer;
+}
+
+.header .gr3 h5:hover {
+    color: #3563E9;
+    transition: all 0.5s ease;
+}
+
+.header .gr3 .partition {
+    background-color: #000000;
+}
